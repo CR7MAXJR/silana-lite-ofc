@@ -14,18 +14,18 @@ global.setting = {
  }
 
 global.info = {
- nomerbot : '212605784394',
- pairingNumber : '212605784394',
+ nomerbot : '994407726748',
+ pairingNumber : '994407726748',
  figlet: 'silanalite', // create a start console display
- nomorwa : '212605784394',
- nameown : 'NOUREDDINE',
+ nomorwa : '994407726748',
+ nameown : 'TOMIOKA-SAN,
  nomerown : '212717457920',
  packname : 'sticker by ',
- author : 'SILANA AI',
- namebot : '乂 SILANA AI',
+ author : 'TOMIOKA AI',
+ namebot : '乂 TOMIOKA AI',
  wm : 'SILANA LITE.',
  stickpack : 'Whatsapp',
- stickauth : 'SILANA LITE',
+ stickauth : 'TOMIOKA PRO',
  jid: '@s.whatsapp.net'
 }
 
@@ -52,9 +52,7 @@ global.media = {
 }
 // Social media
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://instagram.com/noureddine_ouafy',
- sgc: 'https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A'
+ sgc: 'https://whatsapp.com/channel/0029Vb692B2I1rcnAu4n3O3y'
 }
 // Donasi
 global.payment = {
