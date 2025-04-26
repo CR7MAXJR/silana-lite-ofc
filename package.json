@@ -36,7 +36,7 @@
     "canvafy": "^7.1.0",
     "cfonts": "^3.1.1",
     "chalk": "^5.0.1",
-    "cheerio": "github:Tiooxy/cheerio",
+    "cheerio": "^1.0.0-rc.12",
     "events": "^3.3.0",
     "express": "^4.18.1",
     "file_size_url": "*",
@@ -61,7 +61,6 @@
     "wa-sticker-formatter": "^4.3.2",
     "ws": "^8.14.2",
     "xml2js": "*",
-    "@google/generative-ai": "*",
     "yargs": "^17.7.1",
     "yt-search": "^2.10.4"
   }
