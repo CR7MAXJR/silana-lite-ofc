@@ -19,7 +19,7 @@ global.info = {
  figlet: 'silanalite', // create a start console display
  nomorwa : '994407726748',
  nameown : 'TOMIOKA-SAN,
- nomerown : '212717457920',
+ nomerown : '994407726748',
  packname : 'sticker by ',
  author : 'TOMIOKA AI',
  namebot : '乂 TOMIOKA AI',
