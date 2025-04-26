@@ -11,14 +11,14 @@ global.setting = {
  clearTmp: true, // tmp trash cleaner
  addReply: true, // create with thumbnail in message
  idgc: '120363315668824185@g.us' // id gc buat join only
- }
+}
 
 global.info = {
  nomerbot : '994407726748',
  pairingNumber : '994407726748',
  figlet: 'silanalite', // create a start console display
  nomorwa : '994407726748',
- nameown : 'TOMIOKA-SAN,
+ nameown : 'TOMIOKA-SAN',
  nomerown : '994407726748',
  packname : 'sticker by ',
  author : 'TOMIOKA AI',
@@ -50,23 +50,26 @@ global.media = {
  good : 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4',
  sound: 'https://pomf2.lain.la/f/ymca9u8.opus'
 }
+
 // Social media
 global.url = {
  sgc: 'https://whatsapp.com/channel/0029Vb692B2I1rcnAu4n3O3y'
 }
+
 // Donasi
 global.payment = {
  psaweria: 'https://saweria.co/mamad',
  ptrakterr: '-',
  pdana: '0823427570'
 }
+
 // Info Wait
 global.msg = {
- wait: '⏱️ *يرجى التحلي بالصبر*\n\> نحاول تلبية طلبكم ...',
- eror: '🤖 *Information Bot*\n\> Sorry for the inconvenience in using *Silana Ai*. There was an error in the system while executing the command.'
+ wait: '⏱️ *يرجى التحلي بالصبر*\n> نحاول تلبية طلبكم ...',
+ eror: '🤖 *Information Bot*\n> Sorry for the inconvenience in using *Silana Ai*. There was an error in the system while executing the command.'
 }
- 
-// api_id web suntik
+
+// API ID Web Suntik
 global.apiId = {
  smm: '4524',
  lapak: '300672'
@@ -83,25 +86,27 @@ global.api = {
  lapak: '-',
  prodia: '-',
  bing: '1-HLkal9xPklSXn8H_NYBhugb9UnCJKJEzQp4Rk_PxP4xxBCqtm_Os-93cXF8mtFeqde_ZGjnx2C1MM4PCS0gH8mzdX5tJ5aoaDC4G0VruZATWvvOQlHs2UBDNID5PR4MtskWzX69idiBidGDqVwfNBNZYgqb3cgqkLbyEeZnWHxxrhO3es3O8YOI5wd8Y0a31_OiLKTAzwS1ba-wvcBP9khAHrUkuQpzXuoybpwfwpQ'
-
 }
+
+// API URLs
 global.APIs = {
-    xyro: "https://api.xyroinee.xyz",
-    nightTeam: "https://api.tioxy.my.id",
-    lol: "https://api.lolhumaan.xyz",
-    smm: "https://smmnusantara.id",
-    lapak: "https://panel.lapaksosmed.com"
+ xyro: "https://api.xyroinee.xyz",
+ nightTeam: "https://api.tioxy.my.id",
+ lol: "https://api.lolhumaan.xyz",
+ smm: "https://smmnusantara.id",
+ lapak: "https://panel.lapaksosmed.com"
 }
 
-//Apikey
+// API Keys
 global.APIKeys = {
-    "https://api.xyroinee.xyz": "vRFLiyLPWu",
-    "https://api.lolhumaan.xyz": "GataDiosV2"
+ "https://api.xyroinee.xyz": "vRFLiyLPWu",
+ "https://api.lolhumaan.xyz": "GataDiosV2"
 }
 
+// Hot Reload
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
-  unwatchFile(file)
-  console.log(chalk.redBright("Update 'settings.js'"))
-  import(`${file}?update=${Date.now()}`)
+ unwatchFile(file)
+ console.log(chalk.redBright("Update 'settings.js'"))
+ import(`${file}?update=${Date.now()}`)
 })
