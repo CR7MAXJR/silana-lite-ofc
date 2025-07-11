@@ -1,7 +1,7 @@
 {
-  "name": "Tomioka-san",
+  "name": "Zenitsu-Bot",
   "version": "1.0.0",
-  "description": "Tomioka-Pro",
+  "description": "Zenitsu-Pro",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -13,7 +13,7 @@
     "test": "node test.js"
   },
   "keywords": [
-    "Tomiokaai",
+    "Zenitsu Boot",
     "wabot-aq"
   ],
   "homepage": "https://github.com/Tiooxy/Tixo-md",
